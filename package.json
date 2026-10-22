@@ -1,11 +1,13 @@
 {
-  "name": "ai-studio-applet",
-  "version": "0.1.0",
+  "name": "affiliatelaunch-radar-usa-q4-2026",
+  "version": "1.0.0",
+  "description": "Radar com os 500 maiores lançamentos, eventos e treinamentos nos EUA em Outubro, Novembro e Dezembro de 2026 para afiliados profissionais.",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "serve:standalone": "node index.js",
     "lint": "eslint .",
     "clean": "next clean"
   },

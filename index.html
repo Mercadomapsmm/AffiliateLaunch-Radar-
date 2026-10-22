@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AffiliateLaunch Radar USA Q4 2026 | 500 Lançamentos & Oportunidades de Alta Comissao</title>
+  <meta name="description" content="Radar completo com os 500 maiores lançamentos de produtos, eventos, summits e treinamentos nos EUA em Outubro, Novembro e Dezembro de 2026. Analisador de lucratividade, dados de produtores, comissões e gerador de campanhas.">
+  <meta property="og:title" content="AffiliateLaunch Radar USA Q4 2026">
+  <meta property="og:description" content="Os 500 maiores lançamentos e eventos nos EUA para afiliados profissionais lucrarem em Outubro, Novembro e Dezembro de 2026.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            slate: {
+              950: '#020617'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background-color: #020617; color: #f8fafc; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; }
+    .scrollbar-none::-webkit-scrollbar { display: none; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col bg-slate-950 text-slate-100">
+
+  <!-- Header -->
+  <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-center justify-between py-4 gap-3 border-b border-slate-800/60">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-indigo-600 via-purple-600 to-pink-500 p-0.5 shadow-lg flex items-center justify-center">
+            <div class="w-full h-full bg-slate-950 rounded-[14px] flex items-center justify-center font-black text-indigo-400">
+              🧭
+            </div>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-lg sm:text-xl font-extrabold text-white tracking-tight">
+                AffiliateLaunch <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Radar USA</span>
+              </span>
+              <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-300 border border-indigo-500/20">
+                Q4 2026 • 500 Lançamentos
+              </span>
+            </div>
+            <p class="text-xs text-slate-400 hidden sm:block">
+              Radar de Lucratividade, Contatos dos Produtores e Criação de Campanhas nos EUA (Out, Nov, Dez 2026)
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <button onclick="window.exportAllLaunchesToCsv()" class="text-xs py-2 px-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 hover:border-slate-700 transition-all flex items-center gap-1.5 font-medium shadow-sm">
+            <span>📥 Exportar 500 Lançamentos (CSV)</span>
+          </button>
+          <div class="px-3 py-1.5 rounded-xl bg-emerald-950/40 border border-emerald-500/30 text-emerald-300 text-xs font-semibold flex items-center gap-1">
+            <span>🔥 EUA Q4 Season Ativa</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+
+    <!-- Hero Banner -->
+    <div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 border border-indigo-500/20 p-6 sm:p-8 mb-6 shadow-2xl">
+      <div class="relative z-10 max-w-3xl">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-semibold mb-3">
+          <span>✨ Inteligência de Mercado para Super Afiliados • EUA 2026</span>
+        </div>
+        <h1 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
+          Os 500 Maiores Lançamentos & Eventos dos EUA (Q4 2026)
+        </h1>
+        <p class="text-sm sm:text-base text-slate-300 mt-2.5 leading-relaxed">
+          Descubra quais ofertas pagarão as maiores comissões em dólar em <strong>Outubro, Novembro e Dezembro de 2026</strong>. 
+          Avalie o <strong>Score de Lucratividade</strong>, EPC, CVR, contate os gerentes de JV e planeje suas campanhas.
+        </p>
+      </div>
+    </div>
+
+    <!-- KPI Summary Bar -->
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-6">
+      <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-3.5 shadow-sm">
+        <span class="text-xs font-medium text-slate-400 block">Total Catalogado</span>
+        <div class="text-2xl font-bold text-white mt-1">500</div>
+        <div class="text-[11px] text-slate-400 mt-0.5">Out (~170) • Nov (~170) • Dez (~160)</div>
+      </div>
+
+      <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-3.5 shadow-sm">
+        <span class="text-xs font-medium text-slate-400 block">Comissão Média</span>
+        <div class="text-2xl font-bold text-emerald-400 mt-1">$840+ <span class="text-xs text-slate-400">USD</span></div>
+        <div class="text-[11px] text-slate-400 mt-0.5">Payout máx: <strong class="text-emerald-300">$5.000+</strong></div>
+      </div>
+
+      <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-3.5 shadow-sm">
+        <span class="text-xs font-medium text-slate-400 block">EPC Médio Est.</span>
+        <div class="text-2xl font-bold text-amber-400 mt-1">$9.50 <span class="text-xs text-slate-400">/clique</span></div>
+        <div class="text-[11px] text-slate-400 mt-0.5">Alta conversão nos EUA</div>
+      </div>
+
+      <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-3.5 shadow-sm">
+        <span class="text-xs font-medium text-slate-400 block">High-Ticket ($1k+)</span>
+        <div class="text-2xl font-bold text-purple-300 mt-1">210+</div>
+        <div class="text-[11px] text-purple-400/80 mt-0.5">Margem expressiva</div>
+      </div>
+
+      <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-3.5 shadow-sm">
+        <span class="text-xs font-medium text-slate-400 block">Score 90+ (Grade A)</span>
+        <div class="text-2xl font-bold text-cyan-400 mt-1">160+</div>
+        <div class="text-[11px] text-cyan-400/80 mt-0.5">Top lucratividade</div>
+      </div>
+
+      <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-3.5 shadow-sm">
+        <span class="text-xs font-medium text-slate-400 block">Contatos JV</span>
+        <div class="text-2xl font-bold text-white mt-1">100%</div>
+        <div class="text-[11px] text-slate-400 mt-0.5">Email + Telegram + WhatsApp</div>
+      </div>
+    </div>
+
+    <!-- Filter Bar -->
+    <div class="bg-slate-900/90 border border-slate-800 rounded-2xl p-4 sm:p-5 backdrop-blur shadow-lg mb-6 space-y-4">
+      <div class="flex flex-col md:flex-row gap-3">
+        <input
+          id="searchInput"
+          type="text"
+          placeholder="Buscar por nome do lançamento, produtor, cidade (Vegas, Miami, Austin...), plataforma..."
+          class="flex-1 bg-slate-950/80 border border-slate-800 focus:border-indigo-500 rounded-xl px-4 py-2.5 text-xs sm:text-sm text-slate-100 placeholder-slate-500 focus:outline-none"
+        />
+
+        <div class="flex items-center gap-1.5 overflow-x-auto">
+          <button onclick="setMonthFilter('all')" id="btn-month-all" class="month-btn px-3 py-2 rounded-xl text-xs font-semibold whitespace-nowrap bg-indigo-600 text-white">Todos (500)</button>
+          <button onclick="setMonthFilter('Outubro 2026')" id="btn-month-oct" class="month-btn px-3 py-2 rounded-xl text-xs font-semibold whitespace-nowrap bg-slate-800 text-slate-300">Outubro 2026</button>
+          <button onclick="setMonthFilter('Novembro 2026')" id="btn-month-nov" class="month-btn px-3 py-2 rounded-xl text-xs font-semibold whitespace-nowrap bg-slate-800 text-slate-300">Novembro 2026</button>
+          <button onclick="setMonthFilter('Dezembro 2026')" id="btn-month-dec" class="month-btn px-3 py-2 rounded-xl text-xs font-semibold whitespace-nowrap bg-slate-800 text-slate-300">Dezembro 2026</button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+        <div>
+          <label class="block text-[11px] font-semibold text-slate-400 mb-1">Nicho:</label>
+          <select id="nicheSelect" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-2.5 py-1.5 text-xs text-slate-200 focus:outline-none">
+            <option value="all">Todos os Nichos</option>
+            <option value="IA & Automação">IA & Automação</option>
+            <option value="Tráfego & Marketing">Tráfego & Marketing</option>
+            <option value="E-Commerce & Amazon">E-Commerce & Amazon</option>
+            <option value="Investimentos & Imóveis">Investimentos & Imóveis</option>
+            <option value="Biohacking & Saúde">Biohacking & Saúde</option>
+            <option value="Finanças & Trading">Finanças & Trading</option>
+            <option value="Infoprodutos & Mentoria">Infoprodutos & Mentoria</option>
+            <option value="Cripto & Web3">Cripto & Web3</option>
+            <option value="B2B SaaS & Tech">B2B SaaS & Tech</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-[11px] font-semibold text-slate-400 mb-1">Ordenar por:</label>
+          <select id="sortSelect" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-2.5 py-1.5 text-xs text-indigo-300 font-semibold focus:outline-none">
+            <option value="score-desc">🔥 Maior Lucratividade (Score)</option>
+            <option value="payout-desc">💰 Maior Comissão em $</option>
+            <option value="epc-desc">📈 Maior EPC Estimado</option>
+            <option value="ticket-desc">🏷️ Maior Ticket</option>
+          </select>
+        </div>
+
+        <div class="flex items-end">
+          <label class="flex items-center gap-2 cursor-pointer bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-300 w-full">
+            <input type="checkbox" id="mrrCheckbox" class="rounded accent-indigo-500" />
+            <span>Apenas Recorrência (MRR)</span>
+          </label>
+        </div>
+
+        <div class="flex items-end">
+          <button onclick="resetFilters()" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-xl py-2 text-xs font-semibold transition-colors">
+            Limpar Filtros
+          </button>
+        </div>
+      </div>
+      
+      <div class="text-xs text-slate-400 pt-2 border-t border-slate-800">
+        Exibindo <span id="counter" class="text-white font-bold">500</span> lançamentos
+      </div>
+    </div>
+
+    <!-- Catalog Cards Container -->
+    <div id="catalogGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
+      <!-- Inserido dinamicamente via JS -->
+    </div>
+
+    <div id="loadMoreContainer" class="mt-8 text-center">
+      <button onclick="loadMore()" class="px-6 py-3 bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-200 hover:text-white rounded-2xl text-xs font-bold transition-all shadow-lg">
+        Carregar Mais Lançamentos
+      </button>
+    </div>
+  </main>
+
+  <!-- Modal Dossiê -->
+  <div id="detailModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4 overflow-y-auto">
+    <div class="relative w-full max-w-3xl bg-slate-900 border border-slate-700 rounded-2xl shadow-2xl p-6 text-slate-100 my-8">
+      <div class="flex items-start justify-between border-b border-slate-800 pb-3 mb-4">
+        <div>
+          <span id="modalNiche" class="text-xs font-semibold px-2 py-0.5 rounded bg-indigo-500/10 text-indigo-400"></span>
+          <h2 id="modalTitle" class="text-xl font-bold text-white mt-1"></h2>
+          <p id="modalTagline" class="text-xs text-slate-400"></p>
+        </div>
+        <button onclick="closeModal()" class="text-slate-400 hover:text-white p-1 text-lg">✕</button>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4 text-xs">
+        <div class="bg-slate-800/60 p-3 rounded-xl border border-slate-700">
+          <span class="text-slate-400 block">Ticket Produto</span>
+          <strong id="modalTicket" class="text-white text-base"></strong>
+        </div>
+        <div class="bg-emerald-950/30 p-3 rounded-xl border border-emerald-500/30">
+          <span class="text-emerald-400 block">Comissão Afiliado</span>
+          <strong id="modalCommission" class="text-emerald-400 text-base"></strong>
+        </div>
+        <div class="bg-amber-950/30 p-3 rounded-xl border border-amber-500/30">
+          <span class="text-amber-400 block">EPC Estimado</span>
+          <strong id="modalEPC" class="text-amber-400 text-base"></strong>
+        </div>
+        <div class="bg-purple-950/30 p-3 rounded-xl border border-purple-500/30">
+          <span class="text-purple-400 block">Score Lucratividade</span>
+          <strong id="modalScore" class="text-purple-300 text-base"></strong>
+        </div>
+      </div>
+
+      <!-- Produtor & Contato Direto -->
+      <div class="bg-slate-800/60 p-4 rounded-xl border border-slate-700 mb-4 text-xs space-y-2">
+        <h3 class="font-bold text-white uppercase text-[11px] tracking-wider border-b border-slate-700 pb-1">
+          Dossiê do Produtor & Contato Direto JV
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
+          <div>Produtora: <strong id="modalCompany" class="text-white"></strong></div>
+          <div>Host Principal: <strong id="modalHost" class="text-white"></strong></div>
+          <div>Gerente JV: <strong id="modalJv" class="text-white"></strong></div>
+          <div>Email: <strong id="modalEmail" class="text-blue-400"></strong></div>
+          <div>Telegram: <strong id="modalTelegram" class="text-cyan-400"></strong></div>
+          <div>Telefone EUA: <strong id="modalPhone" class="text-emerald-400"></strong></div>
+        </div>
+      </div>
+
+      <div class="flex justify-end gap-2 pt-2 border-t border-slate-800">
+        <button onclick="closeModal()" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-xl text-xs font-semibold">Fechar</button>
+        <a id="modalAffiliateLink" href="#" target="_blank" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md">Cadastrar no Programa</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carrega script com os 500 lançamentos -->
+  <script src="./index.js"></script>
+
+  <!-- Client Controller Script -->
+  <script>
+    let currentLaunches = [];
+    let displayedCount = 24;
+    let selectedMonth = 'all';
+
+    function init() {
+      if (window.AFFILIATE_LAUNCHES_DATA) {
+        currentLaunches = window.AFFILIATE_LAUNCHES_DATA;
+      }
+      renderCatalog();
+
+      document.getElementById('searchInput').addEventListener('input', applyFilters);
+      document.getElementById('nicheSelect').addEventListener('change', applyFilters);
+      document.getElementById('sortSelect').addEventListener('change', applyFilters);
+      document.getElementById('mrrCheckbox').addEventListener('change', applyFilters);
+    }
+
+    function setMonthFilter(month) {
+      selectedMonth = month;
+      document.querySelectorAll('.month-btn').forEach(btn => {
+        btn.className = 'month-btn px-3 py-2 rounded-xl text-xs font-semibold whitespace-nowrap bg-slate-800 text-slate-300';
+      });
+      if (month === 'all') document.getElementById('btn-month-all').className = 'month-btn px-3 py-2 rounded-xl text-xs font-semibold whitespace-nowrap bg-indigo-600 text-white';
+      if (month === 'Outubro 2026') document.getElementById('btn-month-oct').className = 'month-btn px-3 py-2 rounded-xl text-xs font-semibold whitespace-nowrap bg-indigo-600 text-white';
+      if (month === 'Novembro 2026') document.getElementById('btn-month-nov').className = 'month-btn px-3 py-2 rounded-xl text-xs font-semibold whitespace-nowrap bg-indigo-600 text-white';
+      if (month === 'Dezembro 2026') document.getElementById('btn-month-dec').className = 'month-btn px-3 py-2 rounded-xl text-xs font-semibold whitespace-nowrap bg-indigo-600 text-white';
+      applyFilters();
+    }
+
+    function applyFilters() {
+      const q = document.getElementById('searchInput').value.toLowerCase().trim();
+      const niche = document.getElementById('nicheSelect').value;
+      const mrrOnly = document.getElementById('mrrCheckbox').checked;
+      const sort = document.getElementById('sortSelect').value;
+
+      currentLaunches = (window.AFFILIATE_LAUNCHES_DATA || []).filter(item => {
+        if (q && !item.name.toLowerCase().includes(q) && !item.location.toLowerCase().includes(q) && !item.producer.name.toLowerCase().includes(q)) return false;
+        if (selectedMonth !== 'all' && item.month !== selectedMonth) return false;
+        if (niche !== 'all' && item.niche !== niche) return false;
+        if (mrrOnly && !item.recurring) return false;
+        return true;
+      });
+
+      if (sort === 'score-desc') currentLaunches.sort((a,b) => b.profitabilityScore - a.profitabilityScore);
+      if (sort === 'payout-desc') currentLaunches.sort((a,b) => b.commissionPayoutUSD - a.commissionPayoutUSD);
+      if (sort === 'epc-desc') currentLaunches.sort((a,b) => b.estimatedEPC - a.estimatedEPC);
+      if (sort === 'ticket-desc') currentLaunches.sort((a,b) => b.ticketPrice - a.ticketPrice);
+
+      displayedCount = 24;
+      renderCatalog();
+    }
+
+    function resetFilters() {
+      document.getElementById('searchInput').value = '';
+      document.getElementById('nicheSelect').value = 'all';
+      document.getElementById('sortSelect').value = 'score-desc';
+      document.getElementById('mrrCheckbox').checked = false;
+      setMonthFilter('all');
+    }
+
+    function loadMore() {
+      displayedCount += 24;
+      renderCatalog();
+    }
+
+    function renderCatalog() {
+      const container = document.getElementById('catalogGrid');
+      const counter = document.getElementById('counter');
+      counter.innerText = currentLaunches.length;
+
+      const itemsToShow = currentLaunches.slice(0, displayedCount);
+      
+      container.innerHTML = itemsToShow.map(item => `
+        <div class="bg-slate-900 border border-slate-800 hover:border-indigo-500/50 rounded-2xl p-5 flex flex-col justify-between transition-all shadow-md group">
+          <div>
+            <div class="flex items-center justify-between gap-1 mb-2">
+              <span class="text-[11px] font-semibold px-2 py-0.5 rounded bg-indigo-500/10 text-indigo-400">${item.niche}</span>
+              <span class="text-[11px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">Score ${item.profitabilityScore}</span>
+            </div>
+
+            <h3 class="text-sm sm:text-base font-bold text-white group-hover:text-indigo-300 transition-colors line-clamp-1">${item.name}</h3>
+            <p class="text-xs text-slate-400 line-clamp-2 mt-1 mb-3">${item.tagline}</p>
+
+            <div class="text-[11px] text-slate-400 border-y border-slate-800 py-1.5 mb-3 flex justify-between">
+              <span>📅 ${item.dateDisplay}</span>
+              <span>📍 ${item.location}</span>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2 bg-slate-950 p-2.5 rounded-xl border border-slate-800 mb-3">
+              <div>
+                <span class="text-[10px] text-slate-400 block font-medium">Comissão</span>
+                <span class="text-sm font-extrabold text-emerald-400">$${item.commissionPayoutUSD} (${item.commissionPercent}%)</span>
+              </div>
+              <div>
+                <span class="text-[10px] text-slate-400 block font-medium">EPC Estimado</span>
+                <span class="text-sm font-extrabold text-amber-400">$${item.estimatedEPC} /clique</span>
+              </div>
+            </div>
+
+            <div class="text-xs text-slate-300 mb-3">
+              <span class="text-[10px] text-slate-500 block uppercase font-semibold">Produtor</span>
+              <span class="font-medium text-slate-200 truncate block">${item.producer.name}</span>
+            </div>
+          </div>
+
+          <button onclick="openModal(${item.id})" class="w-full py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold transition-all shadow">
+            Ver Dossiê Completo & Contatos
+          </button>
+        </div>
+      `).join('');
+
+      const loadMoreBtn = document.getElementById('loadMoreContainer');
+      if (displayedCount >= currentLaunches.length) {
+        loadMoreBtn.style.display = 'none';
+      } else {
+        loadMoreBtn.style.display = 'block';
+      }
+    }
+
+    function openModal(id) {
+      const item = (window.AFFILIATE_LAUNCHES_DATA || []).find(l => l.id === id);
+      if (!item) return;
+
+      document.getElementById('modalNiche').innerText = item.niche + ' • ' + item.type;
+      document.getElementById('modalTitle').innerText = item.name;
+      document.getElementById('modalTagline').innerText = item.tagline;
+      document.getElementById('modalTicket').innerText = '$' + item.ticketPrice + ' USD';
+      document.getElementById('modalCommission').innerText = '$' + item.commissionPayoutUSD + ' (' + item.commissionPercent + '%)';
+      document.getElementById('modalEPC').innerText = '$' + item.estimatedEPC + ' USD';
+      document.getElementById('modalScore').innerText = item.profitabilityScore + '/100 (Grade ' + item.profitabilityGrade + ')';
+      document.getElementById('modalCompany').innerText = item.producer.name;
+      document.getElementById('modalHost').innerText = item.producer.host;
+      document.getElementById('modalJv').innerText = item.producer.jvManager;
+      document.getElementById('modalEmail').innerText = item.producer.contactEmail;
+      document.getElementById('modalTelegram').innerText = item.producer.telegram;
+      document.getElementById('modalPhone').innerText = item.producer.skypeOrWhatsApp;
+      document.getElementById('modalAffiliateLink').href = item.affiliateSignupUrl;
+
+      document.getElementById('detailModal').classList.remove('hidden');
+      document.getElementById('detailModal').classList.add('flex');
+    }
+
+    function closeModal() {
+      document.getElementById('detailModal').classList.add('hidden');
+      document.getElementById('detailModal').classList.remove('flex');
+    }
+
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-900 bg-slate-950 py-8 mt-12 text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4 space-y-2">
+      <p class="font-semibold text-slate-400">
+        AffiliateLaunch Radar USA Q4 2026 • Catálogo com 500 Lançamentos & Eventos de Alta Conversão
+      </p>
+      <p class="text-[11px] text-slate-500">
+        Dados para afiliados profissionais analisarem rentabilidade, comissões em dólar e contatos diretos de JV nos EUA.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
