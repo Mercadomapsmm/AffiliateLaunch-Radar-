@@ -1,0 +1,6 @@
+{
+  "name": "AffiliateLaunch Radar USA Q4 2026",
+  "description": "Radar com os 500 maiores lançamentos, eventos, imersões e treinamentos nos EUA (Outubro, Novembro e Dezembro de 2026) para afiliados de alta performance analisarem lucratividade, contatarem produtores e criarem campanhas com IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
